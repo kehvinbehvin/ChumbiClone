@@ -1,12 +1,7 @@
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-module.exports = {
-  /**
-   * @type import('hardhat/config').HardhatUserConfig
-   */
-
-  require('dotenv').config();
+require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 
